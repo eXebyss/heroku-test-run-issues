@@ -3,10 +3,10 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const Pool = require("pg").Pool;
 const pool = new Pool({
-  user: "postgres",
-  host: "localhost",
-  database: "issue_tracker",
-  password: "postgres",
+  user: "brxpyrxadbcczs",
+  host: "ec2-52-209-134-160.eu-west-1.compute.amazonaws.com",
+  database: "ddvkgbm9pfhhqr",
+  password: "5d1eb15e717c344c1d1ded00fa66c085404046c4d3e4e129ad68d0b61ec66143",
   port: 5432
 });
 
